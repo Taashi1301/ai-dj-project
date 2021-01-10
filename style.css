@@ -1,0 +1,47 @@
+body{
+    font-family: 'Russo One', sans-serif;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fak7.picdn.net%2Fshutterstock%2Fvideos%2F20541967%2Fthumb%2F1.jpg&f=1&nofb=1");
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+}
+#heading{
+    background-image: linear-gradient(to bottom, #f0f705, #97fa67, #2df4a7, #00e6d6, #12d4eb);
+    margin: 0;
+    width: 90%;
+    font-size: 21px;
+    color: black;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px white;
+}
+#subheading{
+    font-size: 18px;
+}
+.playdiv{
+    float: left;
+    border: 2px solid salmon;
+    width: 40%;
+    height: 20%;
+}
+.playdiv img{
+    width: 70px;
+    height: 70px;
+}
+.switchdiv{
+    float: right;
+    border: 2px solid salmon;
+    width: 40%;
+    height: 20%;
+}
+.switchdiv img{
+    width: 70px;
+    height: 70px;
+}
+canvas{
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gold;
+    margin-top: 100px;
+}
